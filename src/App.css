@@ -1,0 +1,45 @@
+.App {
+  width: 60%;
+  background-color: lavender;
+  margin: 50px auto;
+  border-radius: 10px;
+}
+
+.calc-display {
+  display: flex;
+  justify-content: center;
+}
+
+.calc-display div{
+  margin: 20px 20px 10px 20px;
+  padding: 10px;
+  width: 100%;
+  border: none;
+  height: 50px;
+  font-size: 30px;
+  background-color: white;;
+}
+
+.calc-buttons {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 10px;
+}
+
+.calc-buttons > div {
+  background-color: lavenderblush;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  height: 70px;
+  margin: 10px;
+  font-size: 30px;
+}
+
+.calc-buttons > div:hover {
+  background-color: rgb(255, 190, 212);
+}
+
+
+
